@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Warthog (
+   id BIGSERIAL PRIMARY KEY,
+   firstName VARCHAR(128),
+   lastName VARCHAR(128)
+);
+
+CREATE SEQUENCE hibernate_sequence START 1;
